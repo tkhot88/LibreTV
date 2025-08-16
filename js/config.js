@@ -28,8 +28,8 @@ const API_SITES = {
         detail: 'https://api.1080zyku.com',
     },
     360zy: {
-        name: 'TV-360资源',
         api: 'https://360zy.com/api.php/provide/vod',
+        name: 'TV-360资源',
         detail: 'https://360zy.com',
     },
     ckzy: {
