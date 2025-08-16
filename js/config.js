@@ -54,12 +54,11 @@ const API_SITES = {
     },
     wujinapi: {
         name: 'TV-wujinapi无尽',
-        api: 'https://api.wujinapi.cc/api.php/provide/vod',
-        detail: ''
+        api: 'https://api.wujinapi.cc/api.php/provide/vod'
     },
     yayazy: {
         name: 'TV-丫丫点播',
-        api: 'https://cj.yayazy.net/api.php/provide/vod',
+        api: 'https://api.wujinapi.cc/api.php/provide/vod',
         detail: 'https://cj.yayazy.net'
     },
     guangsuapi: {
