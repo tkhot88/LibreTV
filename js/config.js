@@ -22,12 +22,12 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    1080zyku: {
+    zyku1080: {
         name: 'TV-1080资源',
         api: 'https://api.1080zyku.com/inc/api_mac10.php',
         detail: 'https://api.1080zyku.com',
     },
-    360zy: {
+    zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: 'TV-360资源',
         detail: 'https://360zy.com',
@@ -55,11 +55,6 @@ const API_SITES = {
     wujinapi: {
         name: 'TV-wujinapi无尽',
         api: 'https://api.wujinapi.cc/api.php/provide/vod',
-    },
-    yayazy: {
-        name: 'TV-丫丫点播',
-        api: 'https://api.wujinapi.cc/api.php/provide/vod',
-        detail: 'https://cj.yayazy.net',
     },
     guangsuapi: {
         name: 'TV-光速资源',
@@ -116,7 +111,7 @@ const API_SITES = {
         api: 'http://zuidazy.me/api.php/provide/vod',
         detail: 'http://zuidazy.me',
     },
-        zuida: {
+    zuida: {
         api: 'https://zuidazy.com/api.php/provide/vod/',
         name: '最大资源',
     },
@@ -276,11 +271,6 @@ const API_SITES = {
     shandian: {
         api: 'https://sdzyapi.com/api.php/provide/vod/',
         name: '闪电资源',
-    },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
@@ -463,18 +453,7 @@ const API_SITES = {
         adult: true
     },
     // 下面是资源失效率高的API源，不建议使用
-    subo: {
-        api: 'https://subocaiji.com/api.php/provide/vod',
-        name: '速播资源'
-    },
-    fczy: {
-        api: 'https://api.fczy888.me/api.php/provide/vod',
-        name: '蜂巢资源'
-    },
-    ukzy: {
-        api: 'https://api.ukuapi88.com/api.php/provide/vod',
-        name: 'U酷资源'
-    },
+
 };
 
 // 定义合并方法
